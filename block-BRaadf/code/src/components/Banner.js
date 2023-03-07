@@ -5,7 +5,6 @@ class Banner extends React.Component {
   static contextType = UserContext;
 
   render() {
-    let { isDarkMode } = this.props;
     return (
       <div
         className={
