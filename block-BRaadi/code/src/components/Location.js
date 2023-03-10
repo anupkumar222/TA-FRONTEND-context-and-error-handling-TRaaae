@@ -30,7 +30,7 @@ class Location extends React.Component {
       <div className="box s1-d">
         <p className="small">
           Here we are displaying a list of locations. Clicking on the button
-          below will insert an empty object int the data set. That will make the
+          below will insert an empty object into the data set. That will make the
           app break.
         </p>
         <p className="small">

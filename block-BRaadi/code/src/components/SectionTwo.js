@@ -2,7 +2,8 @@ import React from "react";
 
 class SectionTwo extends React.Component {
   handleClick = () => {
-    throw new Error("An error occured!");
+    alert('An error occured!')
+    // throw new Error("An error occured!");
   };
   render() {
     return (
@@ -13,7 +14,7 @@ class SectionTwo extends React.Component {
           error is thrown. That will make the component gets unmounted. Fix it
           using error boundary. Make this component display `An error occured!`
         </p>
-        <button className="error" onClick={this.handleClick}>
+        <button className="error" onClick={() => this.handleClick}>
           Click to Throw an Error
         </button>
       </div>
