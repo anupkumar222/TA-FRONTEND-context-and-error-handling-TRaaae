@@ -6,9 +6,11 @@ function Main() {
   return (
     <section id="section-one">
       <div className="grid">
+
         <SectionOne />
         <SectionTwo />
         <Location />
+
       </div>
     </section>
   );
